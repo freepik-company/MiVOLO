@@ -234,6 +234,7 @@ class MiVOLOModel(VOLO):
             mlp_ratio,
             qkv_bias,
             drop_rate,
+            drop_rate,
             attn_drop_rate,
             drop_path_rate,
             norm_layer,
