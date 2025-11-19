@@ -14,7 +14,6 @@ def time_sync():
         torch.cuda.synchronize()
     return time.time()
 
-
 def write_results(results_file, results, format="csv"):
     with open(results_file, mode="w") as cf:
         if format == "json":
